@@ -1,0 +1,32 @@
+with open('protagonist.csv', 'w', newline='') as file:
+    writer = csv.writer(file)
+    writer.writerow(["SN", "Movie", "Protagonist"])
+    writer.writerow([1, "Lord of the Rings", "Frodo Baggins"])
+    writer.writerow([2, "Harry Potter", "Harry Potter"])
+
+
+
+
+
+---fishbone
+---and project test cases & test plan on risk and contigencies
+
+Risk
+-Organization risk:which is not having enough manpower to complete the project by deadline - High
+
+-Low budget - high
+
+mitigation
+
+1.At some point it dragged the project a bit, but we were able to delegate responsibilities to the talented and experienced amongst the available team members to make sure the project is delivered at the specified deadline.
+
+2.Re-define the project scope, by identifying what will be tested and what will be ignored.(we were supposed to cover more, but because of the budget, we had to redefine the scope to only certification, and move on later when we have enough funds  to finish the project)
+
+
+Dependencies: NOT NECESSARY!
+1. Software Testing resources and items availability
+2. Hardware dependencies: zoom application was used for meetings, though we could not find one to record meetings due to not being a premium member but we relay messages to absent team members via whatsapp group set up.
+
+
+ 
+-product rick : skipped some key functio mn that which was specified in the user's requirement - medium
